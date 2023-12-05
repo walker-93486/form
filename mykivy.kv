@@ -1,0 +1,32 @@
+<MyLayout>:
+    ti_alireza:ti_alireza
+    ti_password:ti_password
+    id:ti_result
+    orientation:"vertical"
+    Label:
+        text:"be surethat your vpn is on"
+        font_size:25
+        height:5
+    TextInput:
+        id:ti_alireza
+        hint_text:"username"
+        multiline:False
+        font_size:25
+        size_hint:"1","0.5"
+    TextInput:
+        id:ti_password
+        hint_text:"password"
+        password:True
+        multiline:False
+        font_size:25
+        size_hint:"1","0.5"
+    Button:
+        text:"salama"
+        font_size:25
+        size_hint:"0.3","0.3"
+        on_press:root.click()
+    TextInput:
+        id:ti_result
+        hint_text:"result"
+        height:50
+        
